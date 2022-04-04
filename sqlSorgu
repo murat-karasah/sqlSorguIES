@@ -19,3 +19,5 @@ INNER JOIN LG_115_CLCARD as CLC
 on CLL.LOGICALREF = CLC.LOGICALREF
 
 WHERE  CITY IS NOT NULL AND CITY != '' AND CITY NOT LIKE '%İSTANBUL%' 
+
+//https://bitimek.com/sql-tekrar-eden-kayitlari-bulmak/
